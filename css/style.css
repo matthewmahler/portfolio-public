@@ -1,77 +1,174 @@
-body{
+body {
 	background: #242424;
-	font-family: arial,helvetica;
+	font-family: arial, helvetica;
 	color: #fff;
-
 }
-.wrap{
+
+.wrap {
 	margin-left: auto;
 	margin-right: auto;
 	width: 960px;
 	position: relative;
 }
-h1{
+
+h1 {
 	font-size: 6em;
 	color: #fff
 }
-p{
+
+p {
 	font-size: 2em;
 }
-.intro p{
+
+#about {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.intro p {
 	width: 50%;
 	margin: 0 auto;
 	font-size: 1.5em;
 }
-.section{
-	text-align:center;
+
+.section {
+	text-align: center;
 }
+
 #menu li {
-	display:inline-block;
-	margin: 10px;
+	text-align: center;
+	display: auto;
+	margin: 5px;
 	color: #000;
-	background:#fff;
-	background: rgba(255,255,255, 0.5);
+	background: #fff;
+	background: rgba(255, 255, 255, 0.5);
 	-webkit-border-radius: 10px;
-            border-radius: 10px;
+	border-radius: 10px;
 }
-#menu li.active{
-	background:#666;
-	background: rgba(0,0,0, 0.5);
+
+#menu li.active {
+	background: #666;
+	background: rgba(0, 0, 0, 0.5);
 	color: #fff;
 }
-#menu li a{
-	text-decoration:none;
+
+#menu li a {
+	text-decoration: none;
 	color: #000;
 }
-#menu li.active a:hover{
+
+#menu li.active a:hover {
 	color: #000;
 }
-#menu li:hover{
-	background: rgba(255,255,255, 0.8);
+
+#menu li:hover {
+	background: rgba(255, 255, 255, 0.8);
 }
+
 #menu li a,
-#menu li.active a{
-	padding: 9px 18px;
-	display:block;
+#menu li.active a {
+	padding: 6px 10px;
+	display: block;
 }
-#menu li.active a{
+
+#menu li.active a {
 	color: #fff;
 }
-#menu{
-	position:fixed;
-	top:0;
-	left:0;
+
+#menu {
+	position: fixed;
+	top: 0;
+	left: 0;
 	height: 40px;
 	z-index: 70;
-	width: 100%;
+	width: 8%;
 	padding: 0;
-	margin:0;
+	margin: 0;
 }
 
+#icons {
+	width: auto;
+	height: auto;
+	text-align: center;
+}
 
+#arrow {
+	font-size: 500%;
+	font-weight: 700;
+}
 
+.fab {
+	width: 30%;
+	padding: 15px 0;
+}
 
+.fab:hover {
+	opacity: .8;
+}
 
+.fa-facebook-square {
+	color: #3b5998;
+}
 
+.fa-twitter-square {
+	color: #00aced;
+}
 
+.fa-instagram {
+	color: #bc2a8d;
+}
 
+.fa-bandcamp {
+	color: #477987
+}
+
+.fa-spotify {
+	color: #1db954
+}
+
+.fa-soundcloud {
+	color: #ff8800
+}
+
+.fa-github {
+	color: #4078c0
+}
+
+.fa-twitch {
+	color: #6441A4;
+}
+
+.fa-youtube-square {
+	color: #bb0000;
+}
+
+#section0 {
+	background: #000;
+}
+
+#section1 {
+	background: #3b5998;
+}
+
+#section2 {
+	background: #6441A4;
+}
+
+#section3 {
+	background: #242424;
+}
+
+.card {
+	background: #242424;
+}
+
+.img-slides {
+  position: relative;
+  margin: auto;
+}
+
+img{
+	width: 65%;
+}
